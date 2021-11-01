@@ -1,11 +1,43 @@
 <html>
 <head>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-	<ol>
-		<li><a href = "recipes/pan-chicken">Pan Chicken</a></li>
-		<li><a href = "veggie-rice-bowl">Veggie Rice Bowl</a></li>
-	</ol>
-	</body>
+	<div class = "recipeContainer">
+		<h1 id= "title"></h1>
+		<h2 id= "lede"></h2>
+		<p> Takes <span id= "time"></span>, and makes <span id ="servings"></span> servings.
+		<p id= "servings"></p>
+		<h3>ingredients</h3>
+		<ul id = "ingredients">
+		</ul>
+		<h3>method</h3>
+		<ol id = "method">
+		</ol>
+	</div>
+</body>
+<script>
+
+var recipe = {"title" : "foo",
+				"lede": 'dongus',
+				"time" : "45 mins",
+				"servings" : 2,
+				"method" : ["dingus"," foo bar"],
+			  'ingredients': ["blah","bloo"]}
+
+for (const [key, value] of Object.entries(recipe)) {
+  console.log(key, value);
+  if (key == 'ingredients'){
+  	for (const [key, ingredient] of Object.entries(recipe['ingredients'])) {
+	  	$( "#ingredients").append("<li>".concat(ingredient).concat("</li>"));
+	}
+  } else if (key == 'method') {
+  	for (const [key, step] of Object.entries(recipe['method'])) {
+		$( "#method").append("<li>".concat(step).concat("</li>"));
+	}
+  } else {
+  	$( "#".concat(key)).html(value);
+  }
+}
+</script>
 </html>
