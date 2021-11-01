@@ -1,0 +1,37 @@
+{
+  recipes: [{
+    title: "Pan Chicken",
+    lede: "Crispy skin from a long pan fry, creates fond for a mushroom pan sauce. Blanched spring vegetables balance out the rich flavors",
+    servings: 2,
+    time: "45 minutes",
+    ingridients: [
+      "2 Chicken Breasts with skin on",
+      "2 sprigs of rosemary; one whole, one stripped and finely chopped",
+      "4 tablespoons of butter, divided",
+      "4 garlic cloves; half thinly sliced, half minced",
+      "200 grams of mushrooms, bite-size",
+      "splash of soy sauce",
+      "1/2 cup dry white vermouth",
+      "1 and 1/2 cup of chicken broth, divided",
+      "tablespoon mustard",
+      "1 potato, rough chopped to large bites",
+      "2 carrots, peeled, rough chopped to large bites",
+      "500 grams sugar snap peas",
+      "200 grams asparagus, ends removed, thick skin peeled, chopped bite size"
+    ],
+    method: {
+      steps: [
+        "Bring chicken to room temperature, using paper towels to dry skin as much as possible to allow for crispiness during cooking",
+        "Bring a medium sized pot of water to a boil, lightly salt, this will be used to boil and blanch the vegetables",
+        "Boil carrots and potatoes until fork tender, about 10 minutes, and then scoop into a bowl leaving water for blanching green vegetables later",
+        "For chicken, heat a steel pan over medium flame (Cast iron is often too non-stick to create a good fond). Add a splash of olive oil. Season skin-side of the chicken breast with pepper and salt. Once oil is shimmery, lay chicken skin side down. Cook chicken without moving to form fond on bottom of pan. Aim for 10 minutes, adjusting for thickness, and reduce heat as needed to avoid burning.",
+        "While chicken is cooking, return water to a boil and prepare an ice bath. Blanch peas and asparagus for 1-2 minutes minute and then place in ice bath. Once cooled move them to bowl with carrots and potatoes.",
+        "Flip chicken and move to part of pan away from handle. Closest to handle add 1 tablespoon of butter and 1 tablespoon of olive oil. To the fats, add sprig of rosemary and thinly sliced garlic (can also add any other aromatics). Let aromatics fry for a minute. Move aromatics on top of chicken. Tilt pan down and baste chicken breasts continuously.",
+        "Continue basting until chicken has reached an internal temperature of around 145-150 degrees. Lower for larger pieces of chicken as the temperature for large pieces of meat will rise more during resting. Move chicken to plate to rest and place cooked aromatics on top of it.",
+        "In pan with fond, add more butter and olive oil if needed to thinly coat the pan. Sear mushrooms on high heat for a few minutes adding a splash of soy sauce at the end. Then, add vermouth and scrape bottom of pan to deglaze. Add 2 tablespoons of butter, 1 cup of chicken broth, mustard, chopped rosemary, and minced garlic. Stir to combine and cook over high heat to thicken.",
+        "In a separate pan, reduce 1/2 cup of chicken broth with 1 tablespoon of butter. Once slightly reduced, toss vegetables to glaze and reheat. Leave any extra liquid behind when serving.",
+        "Finally, plate chicken with sauce and mushrooms over the top and vegetables on the side."
+      ]
+    },
+  }]
+}
